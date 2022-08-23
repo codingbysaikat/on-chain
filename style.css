@@ -399,18 +399,21 @@ html {
     padding: 5px;
     border-radius: 10px;
 }
+.get-footer{
+    padding: 20px 5%;
+    background: #03143B;
+}
+
 .footer-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    background: #03143B;
+
+
     color: #FFFDFD;
-    padding: 20px 5%;
-}
-.footer-left{
 
 }
+
 .footer-left .single-item{
     display: flex;
     flex-wrap: wrap;
@@ -436,16 +439,60 @@ html {
 
 .footer-left{
     flex: 1 1 50%;
+    margin: 0;
 }
 .footer-right{
     flex: 1 1 50%; 
-}
-
-.footer-right{
     display: flex;
+    justify-content: space-between;
 }
+.footer-right .first-menu{
+    text-align: left;
+    margin: 0;
+}
+.footer-right .first-menu h5{
+    font-size: 20px;
+}
+.footer-right .first-menu ul{
+    padding: 0;
+}
+.footer-right .first-menu ul li{
+    list-style: none;
+    font-size: 14px;
+    margin: 5px 0px;
 
+}
+.footer-right .last-menu ul li{
+    list-style: none;
+    font-size: 14px;
+    margin: 5px 0px;
 
+}
+.footer-right .first-menu ul li a{
+    color: #FFFDFD; 
+
+}
+.footer-right .last-menu{
+    margin: 0;
+}
+.footer-right .last-menu h5{
+    font-size: 20px;
+}
+.footer-right .last-menu ul{
+    padding: 0;
+}
+.footer-right .last-menu ul li{
+    list-style: none;
+
+}
+.footer-right .last-menu ul li a{
+    color: #FFFDFD;
+}
+.get-footer .logo p{
+    color: #fff;
+    font-weight: 800;
+    padding-bottom: 15px;
+} 
 
 
 
