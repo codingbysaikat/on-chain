@@ -4,7 +4,9 @@ on-chine is mail tempate. I have converted this figma tempate into html doc. on-
 [see the figma design](https://www.figma.com/file/VCn6AIfR9zVICPq0tPqj7k/Crypto-Block-Chain-Portfolio-Template-(Community)?node-id=245%3A2) <br>
 [see the html design](https://magical-flan-833f24.netlify.app/)
 ## Authors
-- [@codingbysaikat](https://www.github.com/codingbysaikat)
+-saikat mondal
+## Authors Bio
+-Hi, I am  junior developer. regularly I am learnig development. I am learning wordpress theme, development, wordpress plugin development, 
 ## 🛠 MY Skills
  HTML, CSS, Javascript, jQuery, Bootstrip, AJAX, JSON, PHP, MySQL, WordPress
 ## 🔗 Links
