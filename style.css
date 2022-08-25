@@ -30,12 +30,12 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     padding-top: 55px;
 }
 
 .heading .left-part {
     flex: 1 1 50%;
+    margin: 0;
 }
 
 .heading .right-part {
@@ -103,6 +103,9 @@ html {
     text-align: center;
     color: #FFFFFF;
     padding: 18px 23px;
+}
+.responsive-pra{
+    display: none;
 }
 
 .all-child {
@@ -430,7 +433,7 @@ html {
    
 }
 .footer-left .single-item .value{
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
     margin: 0;
     flex: 1 1 70%;
@@ -451,20 +454,20 @@ html {
     margin: 0;
 }
 .footer-right .first-menu h5{
-    font-size: 20px;
+    font-size: 16px;
 }
 .footer-right .first-menu ul{
     padding: 0;
 }
 .footer-right .first-menu ul li{
     list-style: none;
-    font-size: 14px;
+    font-size: 12px;
     margin: 5px 0px;
 
 }
 .footer-right .last-menu ul li{
     list-style: none;
-    font-size: 14px;
+    font-size: 12px;
     margin: 5px 0px;
 
 }
@@ -476,7 +479,7 @@ html {
     margin: 0;
 }
 .footer-right .last-menu h5{
-    font-size: 20px;
+    font-size: 16px;
 }
 .footer-right .last-menu ul{
     padding: 0;
@@ -526,6 +529,7 @@ html {
     .full-link {
         width: 241px;
         float: left;
+        margin-right: 23px;
     }
 }
 
@@ -553,4 +557,38 @@ html {
         margin: 10px;
         display: inline-block;
     }
+
 }
+@media(max-width: 409px){
+     .footer-container {
+       display: block;
+        }
+        .footer-right{
+            justify-content: flex-start;
+            column-gap: 41px;
+            padding-top: 32px;
+            
+        }
+    }
+    @media(max-width: 451px){
+        .heading{
+            display: block;
+        }
+        .heading .right-part a{
+            margin: 11px 0px;
+        }
+        .heading-2 h2{
+            font-size: 15px;
+        }
+        .heading-2 p{
+            font-size: 13px;
+
+        }
+        .regular-pra{
+            display: none;
+        }
+        .responsive-pra{
+            display: block;
+            padding: 10px 0px !important;
+        }
+    }
