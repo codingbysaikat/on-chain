@@ -6,7 +6,8 @@ on-chine is mail tempate. I have converted this figma tempate into html doc. on-
 ## Authors
 -saikat mondal
 ## Authors Bio
--Hi, I am  junior developer. regularly I am learnig development. I am learning wordpress theme, development, wordpress plugin development, 
+-Hi, I am  junior developer. Regularly I am learnig development and also try to grow code quelity. I am learning wordpress theme development, wordpress plugin development, woocommerce development,
+ laravel, Vue.js
 ## 🛠 MY Skills
  HTML, CSS, Javascript, jQuery, Bootstrip, AJAX, JSON, PHP, MySQL, WordPress
 ## 🔗 Links
